@@ -2,7 +2,7 @@ body {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr auto;
-  grid-template: auto auto 1fr;
+  grid-template: auto auto 1fr auto;
 }
 
 header {
@@ -23,7 +23,7 @@ main {
   padding: 1rem;
 }
 
-.right-sidebar {
+aside {
   background: yellow;
   grid-column: 2 / 3;
   padding: 1rem;
