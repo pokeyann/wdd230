@@ -2,3 +2,72 @@ html {
   font-family: 'Lexend', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+
+body {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+  grid-column: 1 / 4;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+nav {
+  grid-column: 1 / 4;
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 1rem;
+
+}
+
+main {
+  margin: auto;
+  grid-column: 2 / 3;
+  text-align: center;
+  max-width: 90%;
+  padding: 1rem;
+
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+
+h3 {
+  background-color: darkblue;
+  color: white;
+}
+
+.card {
+  border: 2px solid black;
+
+  margin: 1rem;
+}
+
+footer {
+  grid-column: 1 / 4;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 1rem;
+}
