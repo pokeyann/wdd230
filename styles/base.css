@@ -66,6 +66,11 @@ h3 {
   margin: 1rem;
 }
 
+/*How do I get the text and the flag to be centered, like the header?
+p {
+  
+}*/
+
 footer {
   grid-column: 1 / 4;
   text-align: center;
