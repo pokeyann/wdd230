@@ -1,11 +1,17 @@
 html {
-  font-family: 'Lexend', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  /*Lexend Deca font not working, see html for further notes, have triple checked code is correct and is copied directly
+  from google fonts. Have also tried moving code to Body, made no difference.*/
+  font-family: 'Lexend Deca',
+    sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
 }
 
 body {
+
   display: grid;
   grid-template: auto 1fr auto / auto 1fr auto;
+
 }
 
 header {
@@ -52,6 +58,7 @@ ul {
 h3 {
   background-color: darkblue;
   color: white;
+  margin: 0;
 }
 
 .card {
