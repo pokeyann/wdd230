@@ -66,14 +66,23 @@ h3 {
   margin: 1rem;
 }
 
+#flag {
+  margin-left: 10px;
+}
+
 /*How do I get the text and the flag to be centered, like the header?
 p {
+  height
+  line-height
+  
   
 }*/
 
 footer {
   grid-column: 1 / 4;
   text-align: center;
+
+
   background-color: darkblue;
   color: white;
   padding: 1rem;
