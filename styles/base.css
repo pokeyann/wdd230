@@ -22,6 +22,10 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+img {
+  padding: 1rem;
+}
+
 nav {
   grid-column: 1 / 4;
   text-align: center;
