@@ -22,7 +22,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-img {
+.portrait {
   padding: 1rem;
 }
 
@@ -79,8 +79,6 @@ p {
 footer {
   grid-column: 1 / 4;
   text-align: center;
-
-
   background-color: darkblue;
   color: white;
   padding: 1rem;
