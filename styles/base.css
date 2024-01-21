@@ -7,22 +7,16 @@ html {
     sans-serif;
 }
 
-body {
-
-  display: grid;
-  grid-template: auto 1fr auto / auto 1fr auto;
-
-}
+body {}
 
 header {
-  grid-column: 1 / 4;
   text-align: center;
   background-color: darkblue;
   color: white;
   padding: 1rem;
 }
 
-.container {
+.title {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
