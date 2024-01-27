@@ -1,0 +1,50 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  background-color: #2E4374;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  border: 1px solid slategray;
+  background-color: #F3F3F3;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+h2 {
+  background-color: #4B527E;
+  color: aliceblue;
+  margin: 0 auto;
+  padding: .5rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+h3 {
+  padding: .5rem;
+}
+
+h4 {
+  padding: .5rem;
+}
+
+footer {
+  text-align: center;
+}
