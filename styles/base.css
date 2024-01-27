@@ -51,7 +51,6 @@ li a {
 
 main {
   margin: auto;
-  grid-column: 2 / 3;
   text-align: center;
   max-width: 90%;
   padding: 1rem;

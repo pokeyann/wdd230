@@ -8,7 +8,7 @@
     flex: 1 1 100%;
   }
 
-  section {
+  .twocolumns {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
