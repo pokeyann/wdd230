@@ -1,0 +1,16 @@
+@media (min-width: 650px) {
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

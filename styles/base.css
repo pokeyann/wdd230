@@ -26,16 +26,27 @@ header {
 }
 
 nav {
-  grid-column: 1 / 4;
-  text-align: center;
   background-color: black;
+  margin: 0 auto;
   padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 nav a {
   color: white;
   display: block;
   padding: 1rem;
+}
+
+nav a:hover {
+  border: 1px solid white;
+}
+
+li a {
+  text-decoration: none;
 }
 
 main {
