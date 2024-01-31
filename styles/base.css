@@ -45,6 +45,29 @@ nav a:hover {
   border: 1px solid white;
 }
 
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#menu::before {
+  content: url("../images/menu-hotdog50x30.png");
+
+}
+
+#menu.show::before {
+  content: url("../images/x-pack.50x50.png");
+}
+
+.show a {
+  display: block;
+}
+
 li a {
   text-decoration: none;
 }
