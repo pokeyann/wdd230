@@ -50,6 +50,7 @@ nav a:hover {
 }
 
 #menu {
+  display: block;
   font-size: 1.5rem;
   border: 0;
   background: none;
@@ -67,9 +68,10 @@ nav a:hover {
   content: url("../images/x-pack.50x50.png");
 }
 
-.show a {
-  display: block;
+.show li {
+  display: none;
 }
+
 
 li a {
   text-decoration: none;
