@@ -13,4 +13,8 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #menu {
+    display: none;
+  }
+
 }

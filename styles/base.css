@@ -16,9 +16,13 @@ header {
 }
 
 .title {
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.name-text {
+  padding: 1rem;
 }
 
 .portrait {
@@ -49,7 +53,6 @@ nav a:hover {
   font-size: 1.5rem;
   border: 0;
   background: none;
-  color: #000;
   position: absolute;
   top: 1rem;
   left: 1rem;
