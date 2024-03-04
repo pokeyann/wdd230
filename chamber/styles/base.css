@@ -12,3 +12,44 @@ html {
     font-style: normal;
   }
 }
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header,
+footer {
+  grid-column: 1 / 4;
+  text-align: center;
+  background-color: #02364F;
+  color: #F5F5F5;
+  padding: .5rem;
+}
+
+nav {
+  grid-column: 1 / 4;
+}
+
+.left-sidebar {
+  grid-column: 1 / 2;
+  background-color: #ffb703;
+}
+
+main {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-gap: 20px;
+  background-color: #3d3d3d;
+}
+
+.right-sidebar {
+  grid-column: 3 /4;
+  background-color: #fb8500;
+}
+
+section {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
