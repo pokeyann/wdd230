@@ -1,14 +1,9 @@
 
-const sideMenu = document.querySelector("#menu")
-const navigation = document.querySelector(".navigation")
-//sidemenu.style.display = "flex"
+const mainnav = document.querySelector(".navigation")
+const hambutton = document.querySelector("#menu")
 
-sidemenu.addEventListner("click", () => {
-  navigation.classList.toggle("show");
-  hamButton.classList.toggle("show");
+hambutton.addEventListner("click", () => {
+  mainnav.classList.toggle("show");
+  hambutton.classList.toggle("show");
 });
 
-/*function showSidemenu() {
-  const sidemenu = document.querySelector(".sidemenu")
-  sidebar.style.display = "flex"
-}*/

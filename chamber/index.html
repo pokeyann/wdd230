@@ -31,30 +31,16 @@
     <h2>Chamber of Commerce</h2>
   </header>
 
-  <button id="menu" class="show"></button>
-  <nav class="navigation">
-    <ul>
+  <a id="menu" href="#" class="show"></a>
+  <nav>
+    <ul class="navigation show">
+
       <li><a href="#" class="active">Home</a></li>
       <li><a href="#">Discovery</a></li>
       <li><a href="#">Directory</a></li>
       <li><a href="#">Join</a></li>
-      <!--<li onclick=showSidemenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-            viewBox="0 -960 960 960" width="24">
-            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-          </svg></a></li>-->
-    </ul>
-    <!--<ul class="sidemenu">
-      <li onclick=hideSidemenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-            viewBox="0 -960 960 960" width="24">
-            <path
-              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-          </svg></a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Discovery</a></li>
-      <li><a href="#">Directory</a></li>
-      <li><a href="#">Join</a></li>
 
-    </ul>-->
+    </ul>
   </nav>
 
   <main>
@@ -81,18 +67,8 @@
   </footer>
 
   <script src="scripts/lastmodified.js">
-
-    function showSidemenu() {
-      const sidemenu = document.querySelector(".sidemenu")
-      sidebar.style.display = "flex"
-    }
-
-    function hideSidemenu() {
-      const sidemenu = document.querySelector(".sidemenu")
-      sidebar.style.display = "none"
-    }
-
   </script>
+  <script src="scripts/sidemenu.js"></script>
 
 </body>
 
