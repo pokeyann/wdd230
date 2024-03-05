@@ -28,26 +28,18 @@ footer {
   padding: .5rem;
 }
 
+#menu {
+  display: block;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+#menu::before {
+  content: url("../images/hamburger.svg");
+}
+
 nav {
   grid-column: 1 / 4;
-}
-
-/*nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}*/
-
-nav a {
-  float: left;
-  display: block;
-  padding: 1rem;
-}
-
-nav a:hover {
-  background-color: #fb8500;
-  color: #02364F;
 }
 
 .navigation {
@@ -67,22 +59,18 @@ nav a:hover {
   text-decoration: none;
 }
 
-#menu {
-  display: block;
-  text-decoration: none;
-  background-color: yellow;
-}
-
-#menu::before {
-  content: url("../images/hamburger.svg");
-}
-
-#menu.show::before {
-  content: url("../images/closex.svg");
+.navigation a:hover,
+.navigation a:active {
+  background-color: #fb8500;
+  color: #02364F;
 }
 
 .show li {
   display: block;
+}
+
+#menu.show::before {
+  content: url("../images/closex.svg");
 }
 
 .left-sidebar {
