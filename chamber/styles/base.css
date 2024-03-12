@@ -13,7 +13,7 @@ makes global available and possible to change any var etc.   on entire site
   --main-text-font: "Roboto", Sans-serif;
 }*/
 
-html {
+body {
   .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
