@@ -13,6 +13,8 @@ makes global available and possible to change any var etc.   on entire site
   --main-text-font: "Roboto", Sans-serif;
 }*/
 
+
+
 body {
   .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -30,8 +32,8 @@ body {
 
 body {
   display: grid;
-  min-height: 100vh;
-  grid-template: auto 1fr auto / auto 1fr auto;
+  min-height: 120vh;
+  grid-template: auto 60px auto / auto 1fr auto;
 }
 
 header,
@@ -120,21 +122,9 @@ section {
   border: 1px solid #3d3d3d;
 }
 
-@media only screen and (min-width: 40em) {
-  .navigation {
-    display: flex;
-  }
-
-  .navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
-
-  .navigation a {
-    text-align: center;
-  }
-
-  #menu {
-    display: none;
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
