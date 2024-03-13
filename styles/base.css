@@ -35,34 +35,31 @@ h2 {
 }
 
 .hero {
-  margin: 10px;
+  margin: 10px auto;
   position: relative;
   border: 1px solid rgba(0, 0, 0, .75);
-
 }
 
 .hero img {
   width: 100%;
   height: auto;
-
 }
 
 .herolabel {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 3vw;
+  left: 3vw;
   background: radial-gradient(#fff, rgb(200, 240, 254));
   border: 1px solid rgba(82, 82, 82, 0.25);
   padding: 1rem;
   opacity: 0.75;
+
 }
 
 .herolabel p {
   margin: 0;
   padding: .25rem;
-  font-weight: 400;
-
-
+  font-weight: 500;
 }
 
 nav {
