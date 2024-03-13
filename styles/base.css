@@ -34,6 +34,13 @@ h2 {
   border-bottom: 1px solid black;
 }
 
+.hero {
+  margin: 10px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, .75);
+
+}
+
 .hero img {
   width: 100%;
   height: auto;
@@ -42,8 +49,8 @@ h2 {
 
 .herolabel {
   position: absolute;
-  top: 270px;
-  left: 75px;
+  top: 40px;
+  left: 40px;
   background: radial-gradient(#fff, rgb(200, 240, 254));
   border: 1px solid rgba(82, 82, 82, 0.25);
   padding: 1rem;
