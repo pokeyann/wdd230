@@ -94,16 +94,22 @@ nav {
 }
 
 .left-sidebar {
+  margin: 0;
+  padding: 1rem;
   border: 1px solid #3d3d3d;
 }
 
 main {}
 
 .right-sidebar {
+  margin: 0;
+  padding: 1rem;
   border: 1px solid #3d3d3d;
 }
 
 section {
+  margin: 0;
+  padding: 1rem;
   border: 1px solid #3d3d3d;
 }
 
