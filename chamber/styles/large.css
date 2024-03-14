@@ -1,56 +1,6 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 60em) {
 
-  body {
-    display: grid;
-    /*min-height: 120vh;*/
-    grid-template: auto 1fr auto / auto 1fr auto;
-  }
 
-  header,
-  footer {
-    grid-column: 1 / 4;
-  }
-
-  nav {
-    grid-column: 1 / 4;
-  }
-
-  .navigation {
-    display: flex;
-  }
-
-  .navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
-
-  .navigation a {
-    text-align: center;
-  }
-
-  #menu {
-    display: none;
-  }
-
-  .left-sidebar {
-    grid-column: 1 / 2;
-  }
-
-  main {}
-
-  .middle {
-    grid-column: 2 / 3;
-  }
-
-  .right-sidebar {
-    grid-column: 3 /4;
-    grid-row: 1;
-  }
-
-  .columns {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-  }
 
 
   .largelabel {
@@ -70,5 +20,7 @@
     font-weight: 600;
   }
 
-  */
+  .mediumlabel {
+    display: none;
+  }
 }

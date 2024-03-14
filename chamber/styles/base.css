@@ -116,3 +116,20 @@ section {
   width: 100%;
   height: auto;
 }
+
+.smalllabel {
+  position: absolute;
+  top: 30vw;
+  left: 45vw;
+  background: radial-gradient(#fff, rgb(244, 249, 251));
+  border: 5px solid #3d3d3d;
+  padding: .5rem;
+  opacity: 0.75;
+  font-size: 2rem;
+}
+
+.smalllabel p {
+  margin: 0;
+  padding: .25rem;
+  font-weight: 600;
+}
