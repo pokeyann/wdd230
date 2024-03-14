@@ -30,8 +30,6 @@ body {
   }
 }
 
-
-
 header,
 footer {
   text-align: center;
@@ -71,12 +69,14 @@ nav {
 
 .navigation li {
   display: none;
+
 }
 
 .navigation a {
   display: block;
   text-align: left;
   text-decoration: none;
+  color: #f5f5f5;
 }
 
 .navigation a:hover,
@@ -107,9 +107,12 @@ section {
   border: 1px solid #3d3d3d;
 }
 
-/*@media only screen and (max-width: 600px) {
-  body {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+/*.responsiveimg {
+  margin: 10px auto;
+  position: relative;
 }*/
+
+.responsiveimg img {
+  width: 100%;
+  height: auto;
+}

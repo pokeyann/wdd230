@@ -32,48 +32,57 @@
     <h1>Harvest Rocket City</h1>
     <h2>Chamber of Commerce</h2>
 
+
+
+    <nav>
+      <div id="mode">
+        🕶
+      </div>
+      <button id="menu" aria-label="close"></button>
+      <ul class="navigation">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Discovery</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+
+    </nav>
   </header>
 
-  <nav>
-    <div id="mode">
-      🕶
-    </div>
-    <button id="menu" aria-label="close"></button>
-    <ul class="navigation">
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">Discovery</a></li>
-      <li><a href="#">Directory</a></li>
-      <li><a href="#">Join</a></li>
-    </ul>
 
-  </nav>
-
-  <div class="">
-    <picture>
-      <source media="(max-width: px)" srcset="">
-      <source media="(max-width: px)" srcset="">
-      <img src="" alt="" width="" height="">
-    </picture>
-    <div class="label">
-      <p></p>
-    </div>
-  </div>
 
   <main>
-    <!--Hero Image-->
+    <div class="responsiveimg">
+      <picture>
+        <source media="(max-width: 600px)" srcset="images/wdd230-small-400x267.webp">
+        <source media="(max-width: 800px)" srcset="images/wdd230-medium-800x533.webp">
+        <img src="images/wdd230-large-1200x800.webp" alt="office people at table" width="1200" height="800">
+      </picture>
+      <!--<div class="smalllabel">
+        <p>small</p>
+      </div>
+      <div class="mediumlabel">
+        <p>medium</p>
+      </div>
+      <div class="largelabel">
+        <p>large</p>
+      </div>-->
+    </div>
     <!--Call To action-->
-    <section class="left-sidebar">
-      <h2>Current Events</h2>
-    </section>
-    <section class="right-sidebar">
-      <h2>Weather</h2>
-    </section>
-    <section>
-      <h2>Member Spotlights</h2>
-      <h3>Spotlight 1</h3>
-      <h3>Spotlight 2</h3>
-      <h3>Spotlight 3</h3>
-    </section>
+    <div class="columns">
+      <section class="left-sidebar">
+        <h2>Current Events</h2>
+      </section>
+      <section class="right-sidebar">
+        <h2>Weather</h2>
+      </section>
+      <section class="middle">
+        <h2>Member Spotlights</h2>
+        <h3>Spotlight 1</h3>
+        <h3>Spotlight 2</h3>
+        <h3>Spotlight 3</h3>
+      </section>
+    </div>
   </main>
 
   <footer>

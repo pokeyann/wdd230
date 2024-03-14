@@ -2,8 +2,8 @@
 
   body {
     display: grid;
-    min-height: 120vh;
-    grid-template: auto 60px auto / auto 1fr auto;
+    /*min-height: 120vh;*/
+    grid-template: auto 1fr auto / auto 1fr auto;
   }
 
   header,
@@ -36,18 +36,37 @@
     grid-column: 1 / 2;
   }
 
-  main {
-    display: grid;
+  main {}
+
+  .middle {
     grid-column: 2 / 3;
-    grid-gap: 20px;
   }
 
   .right-sidebar {
     grid-column: 3 /4;
-  }
-
-  section {
-    grid-column: 2 / 3;
     grid-row: 1;
   }
+
+  /*section {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }*/
+
+  .columns {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+  /*.resopnsiveimg {
+    grid-column: 1 / 4;
+
+  }
+
+  .largelabel {}
+
+  .largelabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 600;
+  }*/
 }
