@@ -47,26 +47,28 @@
     grid-row: 1;
   }
 
-  /*section {
-    grid-column: 2 / 3;
-    grid-row: 2;
-  }*/
-
   .columns {
     display: grid;
     grid-template-columns: auto 1fr auto;
   }
 
-  /*.resopnsiveimg {
-    grid-column: 1 / 4;
 
+  .largelabel {
+    position: absolute;
+    top: 20vw;
+    left: 50vw;
+    background: radial-gradient(#fff, rgb(244, 249, 251));
+    border: 5px solid #3d3d3d;
+    padding: .5rem;
+    opacity: 0.75;
+    font-size: 4rem;
   }
-
-  .largelabel {}
 
   .largelabel p {
     margin: 0;
     padding: .25rem;
     font-weight: 600;
-  }*/
+  }
+
+  */
 }
