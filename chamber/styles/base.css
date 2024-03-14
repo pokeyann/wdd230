@@ -30,15 +30,10 @@ body {
   }
 }
 
-body {
-  display: grid;
-  min-height: 120vh;
-  grid-template: auto 60px auto / auto 1fr auto;
-}
+
 
 header,
 footer {
-  grid-column: 1 / 4;
   text-align: center;
   background-color: #02364F;
   color: #F5F5F5;
@@ -65,7 +60,6 @@ footer {
 }
 
 nav {
-  grid-column: 1 / 4;
   border: 1px solid #3d3d3d;
 }
 
@@ -100,31 +94,22 @@ nav {
 }
 
 .left-sidebar {
-  grid-column: 1 / 2;
   border: 1px solid #3d3d3d;
 }
 
-main {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-gap: 20px;
-
-}
+main {}
 
 .right-sidebar {
-  grid-column: 3 /4;
   border: 1px solid #3d3d3d;
 }
 
 section {
-  grid-column: 2 / 3;
-  grid-row: 1;
   border: 1px solid #3d3d3d;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   body {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
+}*/
