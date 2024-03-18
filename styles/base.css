@@ -110,7 +110,7 @@ li a {
 }
 
 li {
-  padding: .5rem;
+  padding: .75rem;
 }
 
 .active::before {
