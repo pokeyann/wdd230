@@ -43,7 +43,7 @@ function displayList(item) {
     deleteChapter(li.textContent);
     input.focus();
   });
-  console.log("I do enjoy copying code, it's really hard!!");
+  console.log("I do enjoy copying code, it's really hard remembering all the pieces!!");
   //input.focus(); during copy and paste, this was still here, not really sure if needed in this spot anymore
 }
 

@@ -27,6 +27,9 @@ header {
 
 .portrait {
   padding: 1rem;
+  /*width: 100%;
+  height: auto;
+  object-fit: contain;*/
 }
 
 h2 {
@@ -111,6 +114,10 @@ li a {
   text-decoration: none;
 }
 
+li {
+  padding: .5rem;
+}
+
 .active::before {
   content: "🏠";
 }
@@ -162,16 +169,12 @@ h3 {
 
 }
 
-#flag {
-  margin-left: 10px;
-}
-
 /*How do I get the text and the flag to be centered, like the header?
 p {
   height
   line-height
   
-  Maybe I should just delete it!!!!!!!!
+  Maybe I should just delete it!!!!!!!! Deleted flag
 }*/
 
 footer {
