@@ -134,6 +134,11 @@ h3 {
   margin: 0;
 }
 
+.visit {
+  color: black;
+
+}
+
 .card {
   border: 2px solid black;
   margin: 1rem;
