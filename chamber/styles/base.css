@@ -13,8 +13,6 @@ makes global available and possible to change any var etc.   on entire site
   --main-text-font: "Roboto", Sans-serif;
 }*/
 
-
-
 body {
 
   .raleway {
@@ -139,4 +137,29 @@ section {
   margin: 0;
   padding: .25rem;
   font-weight: 600;
+}
+
+/* ----------DISCOVER PAGE----------*/
+.discover-main {
+  grid-area: main;
+  background-color: #fb8500;
+}
+
+.discover-aside {
+  grid-area: sidebar;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "main"
+    "sidebar";
+}
+
+.discover-main img {
+  width: 100%;
+  height: auto;
 }
