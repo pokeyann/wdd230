@@ -88,21 +88,16 @@ nav a:hover {
 
 #menu {
   display: block;
-  font-size: 1.5rem;
-  border: 0;
-  background: none;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  text-decoration: none;
 }
 
 #menu::before {
-  content: url("../images/menu-hotdog50x30.png");
+  content: url("../images/menu-hotdog80x48.png");
 
 }
 
 #menu.show::before {
-  content: url("../images/x-pack.50x50.png");
+  content: url("../images/x-pack48x48.png");
 }
 
 .show li {
