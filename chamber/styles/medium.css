@@ -78,4 +78,12 @@
       "sidebar main"
   }
 
+  .agenda-calendar {
+    display: none;
+  }
+
+  .month-calendar {
+    display: block;
+  }
+
 }
