@@ -145,6 +145,7 @@ section {
 
 .discover-aside {
   grid-area: sidebar;
+  min-width: 0;
 }
 
 .wrapper {
@@ -160,6 +161,16 @@ section {
   height: auto;
 }
 
+/*.agenda-calendar {
+  width: 100%;
+  height: auto;
+}*/
+
 .month-calendar {
   display: none;
+}
+
+.discover-aside img {
+  width: 100%;
+  height: auto;
 }
