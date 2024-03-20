@@ -1,4 +1,3 @@
-
 let temp = parseFloat(document.querySelector("#temp").textContent);
 let speed = parseFloat(document.querySelector("#speed").textContent);
 //let chill = parseFloat(document.querySelector("#chill").textContent);
@@ -12,8 +11,6 @@ if (temp <= 50 && speed > 3) {
 } else {
   windChill = "N/A";
 }
-
-
 
 document.querySelector("#chill").innerHTML = windChill;
 

@@ -1,36 +1,9 @@
-// first what is the time difference
-// second if blocks for which message to display depending on time difference 
-// increment variable before you set it eg 
-//numVisits++; 
-//localStorage.setItem("numVisits-ls", numVisits);
-//3-19-24 got code working, now need to build if blocks
-
-
-//Practice getting milliseconds
-/*const todaysDate = new Date().getTime();
-
-function getTodaysDate() {
-  let date = new Date(todaysDate);
-  console.log("Milliseconds =" + date.toString());
-}
-getTodaysDate();*/
-
-/*const msToSecond = 1000;
-
-const msDifference = welcomeDate.getTime() - todaysDate.getTime();
-
-const secondsLeft = Math.ceil(msDifference / msToSecond);
-
-backSoonElement.textContent = `${secondsLeft} seconds`;
-console.log(secondsLeft);*/
-
-
 const msToDay = 84600000;
 const todaysDate = new Date()
 const welcomeDate = new Date();
 
 const welcomeElement = document.querySelector(".welcome");
-const backSoonElement = document.querySelector(".backsoon"); // change to seconds for testing purposes
+const backSoonElement = document.querySelector(".backsoon");
 const lastElement = document.querySelector(".last");
 const daysElement = document.querySelector(".days");
 
@@ -62,4 +35,3 @@ setVisitNumber();
 function setVisitNumber() {
   localStorage.setItem("visitNumber", visitNumber);
 }
-
