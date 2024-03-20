@@ -140,7 +140,6 @@ section {
 /* ----------DISCOVER PAGE----------*/
 .discover-main {
   grid-area: main;
-  background-color: #fb8500;
 }
 
 .discover-aside {
@@ -177,5 +176,21 @@ section {
 
 .discover-aside h1,
 h2 {
+  text-align: center;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: #3d3d3d;
+  color: #F5F5F5;
+  font: italic smaller sans-serif;
+  padding: 3px;
   text-align: center;
 }
