@@ -178,6 +178,12 @@ h2 {
   text-align: center;
 }
 
+.visit-date {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: xx-large;
+}
+
 figure {
   border: thin #c0c0c0 solid;
   display: flex;
