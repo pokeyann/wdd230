@@ -1,3 +1,9 @@
+// first what is the time difference
+// second if blocks for which message to display depending on time difference 
+// increment variable before you set it eg 
+//numVisits++; 
+//localStorage.setItem("numVisits-ls", numVisits);
+
 //const msToDay = 84600000;
 
 //Practice getting milliseconds
@@ -18,8 +24,9 @@ function getTodaysDate() {
 getTodaysDate();
 
 const welcomeElement = document.querySelector(".welcome");
-const backSoonElement = document.querySelector(".backsoon");
+const backSoonElement = document.querySelector(".backsoon"); // change to seconds for testing purposes
 const lastElement = document.querySelector(".last");
+//const daysElement = document.querySelector(".days");
 
 const today = Date.now();
 
@@ -31,8 +38,6 @@ function getDaysLeft() {
   let daysleft = (welcome.getTime() - Date.now()) / msToDay;
 }
 
-//stopping here too tired to continue tonight - error message: visitdate.js:34 Uncaught ReferenceError: days is not defined
-//   at visitdate.js:36:30
 welcomeElement.textContent = days;
 backSoonElement.textContent = backsoon.getTime();
 lastElement.textContent = "${daysleft.toFixed(0)} days";
