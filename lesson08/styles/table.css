@@ -9,6 +9,11 @@
   --zebra: hsl(0, 0%, 93%, 1);
 }
 
+/* hsla = hue (0 to 360 color wheel, 0 = black, 360 = red),
+ saturation (0% is shade of gray, 100% full color), 
+ lightness (0% is black, 50% normal, 100% white),
+ alpha (opacity 0.0 transparent to 1.0 opaque)*/
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -27,7 +32,31 @@ caption {
   font-size: .70rem;
 }
 
-.title {
+td,
+th {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+thead {
   background-color: var(--back);
   color: var(--forelight);
+}
+
+thead th {
+  background-color: var(--back2);
+}
+
+.headings {
+  background-color: var(--back);
+}
+
+tbody,
+th,
+td {
+  border: thin dotted var(--borderlight);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--zebra);
 }
