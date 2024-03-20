@@ -189,7 +189,7 @@ figure {
   display: flex;
   flex-flow: column;
   padding: 5px;
-  margin: auto;
+
 }
 
 figcaption {
