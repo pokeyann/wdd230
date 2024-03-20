@@ -107,7 +107,7 @@ nav a:hover {
 
 li a {
   text-decoration: none;
-  padding: .3rem;
+  padding-bottom: 10px;
 }
 
 li {
