@@ -105,16 +105,16 @@ nav a:hover {
 }
 
 
-li a {
+/*li a {
   text-decoration: none;
-
-}
+  list-style: none;
+}*/
 
 li {
-  font-size: 1.2em;
-  list-style: none;
-  padding-bottom: 10px;
+  display: block;
+  list-style-type: none;
 
+  padding-bottom: 10px;
 }
 
 .active::before {
