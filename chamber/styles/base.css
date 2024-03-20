@@ -14,10 +14,9 @@ makes global available and possible to change any var etc.   on entire site
 }*/
 
 body {
-
   .raleway {
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
+    /*font-optical-sizing: auto;*/
     font-weight: 400;
     font-style: normal;
   }
