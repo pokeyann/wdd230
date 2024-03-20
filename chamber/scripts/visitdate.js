@@ -3,8 +3,8 @@
 // increment variable before you set it eg 
 //numVisits++; 
 //localStorage.setItem("numVisits-ls", numVisits);
+//3-19-24 got code working, now need to build if blocks
 
-//const msToDay = 84600000;
 
 //Practice getting milliseconds
 /*const todaysDate = new Date().getTime();
@@ -15,29 +15,51 @@ function getTodaysDate() {
 }
 getTodaysDate();*/
 
-//Is this needed considering line 19, or should I adjust line 19 to this?
-const todaysDate = new Date().getTime();
+/*const msToSecond = 1000;
 
-function getTodaysDate() {
-  let date = new Date(todaysDate);
-}
-getTodaysDate();
+const msDifference = welcomeDate.getTime() - todaysDate.getTime();
+
+const secondsLeft = Math.ceil(msDifference / msToSecond);
+
+backSoonElement.textContent = `${secondsLeft} seconds`;
+console.log(secondsLeft);*/
+
+
+const msToDay = 84600000;
+const todaysDate = new Date()
+const welcomeDate = new Date();
 
 const welcomeElement = document.querySelector(".welcome");
 const backSoonElement = document.querySelector(".backsoon"); // change to seconds for testing purposes
 const lastElement = document.querySelector(".last");
-//const daysElement = document.querySelector(".days");
+const daysElement = document.querySelector(".days");
 
-const today = Date.now();
+const daysLeft = Math.ceil((welcomeDate.getTime() - todaysDate.getTime()) / msToDay);
 
-function getWelcome() {
-  const welcome = new Date(Date.UTC(todaysDate.getFullYear(), 3, 19));
+let visitNumber = getVisitNumber() || 0;
+
+
+function getVisitNumber() {
+  return Number(window.localStorage.getItem("visitNumber"));
 }
 
-function getDaysLeft() {
-  let daysleft = (welcome.getTime() - Date.now()) / msToDay;
+if (visitNumber == 0) {
+  welcomeElement.textContent = "Welcome! Let us know if you have any questions.";
 }
 
-welcomeElement.textContent = days;
-backSoonElement.textContent = backsoon.getTime();
-lastElement.textContent = "${daysleft.toFixed(0)} days";
+if (visitNumber == 1) {
+  backSoonElement.textContent = "Back so soon! Awesome!";
+}
+
+if (visitNumber > 1) {
+  lastElement.textContent = `You last visited ${daysLeft} days ago.`;
+}
+
+visitNumber++;
+
+setVisitNumber();
+
+function setVisitNumber() {
+  localStorage.setItem("visitNumber", visitNumber);
+}
+
