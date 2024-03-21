@@ -9,29 +9,29 @@ const daysElement = document.querySelector(".days");
 
 const daysLeft = Math.ceil((welcomeDate.getTime() - todaysDate.getTime()) / msToDay);
 
-let visitNumber = getVisitNumber() || 0;
+let lastVisitDate = getLastVisitDate() || 0;
 
 
-function getVisitNumber() {
-  return Number(window.localStorage.getItem("visitNumber"));
+function getLastVisitDate() {
+  return Number(window.localStorage.getItem("lastVisitDate"));
 }
 
-if (visitNumber == 0) {
+if (lastVisitDate == 0) {
   welcomeElement.textContent = "Welcome! Let us know if you have any questions.";
 }
 
-if (visitNumber == 1) {
+if (lastVisitDate == 1) {
   backSoonElement.textContent = "Back so soon! Awesome!";
 }
 
-if (visitNumber > 1) {
+if (lastVisitDate > 1) {
   lastElement.textContent = `You last visited ${daysLeft} days ago.`;
 }
 
-visitNumber++;
+lastVisitDate++;
 
 setVisitNumber();
 
 function setVisitNumber() {
-  localStorage.setItem("visitNumber", visitNumber);
+  localStorage.setItem("visitNumber", lastVisitDate);
 }
