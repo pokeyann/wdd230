@@ -33,5 +33,5 @@ lastVisitDate++;
 setVisitNumber();
 
 function setVisitNumber() {
-  localStorage.setItem("visitNumber", lastVisitDate);
+  localStorage.setItem("lastVisitDate", lastVisitDate);
 }
