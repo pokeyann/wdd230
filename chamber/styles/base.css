@@ -12,7 +12,9 @@ makes global available and possible to change any var etc.   on entire site
   --main-title-font: "Playfair", Sans-serif;
   --main-text-font: "Roboto", Sans-serif;
 }*/
-/* I continue to get a Parse error on the font, I've tried many, many different things to fix, have yet to find solution. 3-20-24*/
+/* I continue to get a Parse error on the font, I've tried many, many different things to fix, have yet to find solution. 3-20-24
+Update: was finally able to get an explanation from chatgpt that there was a nesting violation, fixed accordingly and now 
+no more error!!!*/
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
