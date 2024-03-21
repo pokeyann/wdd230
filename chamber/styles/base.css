@@ -14,18 +14,15 @@ makes global available and possible to change any var etc.   on entire site
 }*/
 /* I continue to get a Parse error on the font, I've tried many, many different things to fix, have yet to find solution. 3-20-24*/
 body {
-  .raleway {
-    font-family: "Raleway", sans-serif;
-    /*font-optical-sizing: auto;*/
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header,
