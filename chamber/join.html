@@ -48,17 +48,18 @@
 
   <main>
     <form method="get" action="thankyou.html">
-      <label>First Name <input type="text" name="fname" id="fname" required></label>
-      <label>Last Name <input type="text" name="lname" id="lname" required></label>
-      <label>Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"
+      <label>First Name* <input type="text" name="fname" id="fname" required></label>
+      <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+      <label>Title or Position* <input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"
           placeholder="Enter text (at least 7 characters, only alpha characters, hyphens, and spaces allowed)"
           title="Please enter at least 7 characters, only alpha characters, hyphens, and spaces allowed." required>
       </label>
-      <label>Email <input type="email" name="email" id="email" placeholder="vonBraun@harvestchamber.com"
+      <label>Email* <input type="email" name="email" id="email" placeholder="vonBraun@harvestchamber.com"
           required></label>
-      <label>Mobile number <input type="tel" name="mobile" id="mobile" required></label>
+      <label>Mobile number* <input type="tel" name="mobile" id="mobile" required></label>
       <label>Business/Organization Name <input type="text" name="business" id="businesss"></label>
-      <label>Business/Organization Description <input type="textarea" name="description" id="description"></label>
+      <label>Business/Organization Description <input type="textarea" name="description" id="description" rows="4"
+          cols="20"></label>
       <!--May need to specify rows="" and cols=""-->
       <label>Membership Level
         <label><input type="radio" name="membership" id="np"> Non Profit Membership</label>
@@ -66,7 +67,7 @@
         <label><input type="radio" name="membership" id="silver">Silver Membership</label>
         <label><input type="radio" name="membership" id="gold">Gold Membership</label></label>
       <label><input type="hidden" name="hideme" id="hideme"></label>
-      <label><input type="submit" value="Join"></label>
+      <label><input button type="submit" value="Become a Member"></label>
 
 
 
