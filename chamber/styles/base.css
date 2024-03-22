@@ -227,4 +227,9 @@ input[type="textarea"] {
   max-width: 450px;
 }
 
+textarea {
+  display: block;
+  width: 100%;
+}
+
 input[type="radio"] {}
