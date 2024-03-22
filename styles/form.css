@@ -92,18 +92,79 @@ li {
   content: "🏠";
 }
 
+h1 {
+  margin-left: 2%;
+}
+
 label {
   display: block;
-  margin: 1rem 0;
-  padding: .5rem 2%;
+  padding: 1rem;
 }
 
-legend {
-  color: blue;
-  padding: 0 .5rem;
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background-color: lightgray;
+  display: block;
+  border: solid 1px gray;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #333;
+  width: 100%;
+  max-width: 400px;
+  appearance: none;
 }
 
+#rating {
+  width: 200px;
+  margin-bottom: 0;
+}
 
+#ratingvalue {
+  font-size: 1.5rem;
+  padding: 16px 16px 8px 4px;
+  color: #034363;
+}
+
+#ratingvalues {
+  display: flex;
+  width: 212px;
+}
+
+#ratingvalues option {
+  flex: 1 1 auto;
+  color: #034363;
+}
+
+#numberline {
+  padding: 1rem;
+  padding: 8px 16px 16px 0px;
+}
+
+input:required {
+  border-left: solid 8px #FB8500;
+}
+
+input:required:valid {
+  border-left: solid 8px #034363;
+}
+
+input[type="submit"] {
+  border: none;
+  background-image: linear-gradient(rgb(56, 56, 252), #02364F);
+  color: white;
+  border-radius: 6px;
+  padding: .8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: 8px 16px 16px 16px;
+  box-shadow: 1px 1px 4px #999;
+}
+
+#message {
+  color: red;
+  font: bold;
+}
 
 footer {
   grid-column: 1 / 4;
