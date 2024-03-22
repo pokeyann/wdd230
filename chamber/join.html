@@ -46,44 +46,23 @@
   </header>
 
   <main>
-    <div class="responsiveimg">
-      <picture>
-        <source media="(max-width: 600px)" srcset="images/wdd230-small-400x381.webp">
-        <source media="(max-width: 960px)" srcset="images/wdd230-medium-800x760.webp">
-        <img src="images/wdd230-large-1200x800.webp" alt="office people at table" width="1200" height="800">
-      </picture>
-      <div class="smalllabel">
-        <p>small</p>
-      </div>
-      <div class="mediumlabel">
-        <p>medium</p>
-      </div>
-      <div class="largelabel">
-        <p>large</p>
-      </div>
-    </div>
-    <!--Call To action-->
-    <div class="columns">
+    <form method="get" action="thankyou.html">
+      <label>First Name <input="text" id="fname" name="fname" required></label>
+      <label>Last Name <input="text" id="lname" name="lname" required></label>
 
-      <section class="left-sidebar">
-        <h2>Current Events</h2>
-      </section>
+      <label>Title or Position <input="text" id="title" name="title" pattern="[]{7,}" required></label>
+      <label>Email <input="" id="" name=""></label>
+      <label>Mobile # <input="" id="" name=""></label>
+      <label>Business/Organization <input="" id="" name=""></label>
+      <label>Membership Level <input="" id="" name=""></label>
+      <label>Business/Organization Description <input="" id="" name=""></label>
+      <label>Hidden <input="hidden????" id="" name=""></label>
+      <label>You Will Submit To Meeee <input="submit"></label>
 
-      <section class="right-sidebar">
-        <h2>Weather</h2>
-        <p>Currently: <span id="temp">30</span>&#176;F</p>
-        <p>Wind Speed: <span id="speed">4</span> mph</p>
-        <p>Wind Chill: <span id="chill"></span>&#176;F</p>
-      </section>
 
-      <section class="middle">
-        <h2>Member Spotlights</h2>
-        <h3>Spotlight 1</h3>
-        <h3>Spotlight 2</h3>
-        <h3>Spotlight 3</h3>
-      </section>
 
-    </div>
+    </form>
+
   </main>
 
   <footer>

@@ -135,7 +135,8 @@ section {
   font-weight: 600;
 }
 
-/* ----------DISCOVER PAGE----------*/
+/* ----------- DISCOVER PAGE -----------*/
+
 .discover-main {
   grid-area: main;
 }
@@ -203,3 +204,5 @@ figcaption {
   padding: 5px;
   text-align: center;
 }
+
+/*---------- Join Page ----------*/
