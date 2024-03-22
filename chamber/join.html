@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harvest Rocket City Chamber of Commerce website</title>
+  <title>Harvest Rocket City Chamber of Commerce website Join page</title>
   <meta name="description" content="Chamber of Commerce for Harvest Rocket City, AL Join Page">
   <meta name="author" content="Ann Mecham">
   <link rel="icon" href="images/icon_2b46437d120179612a234faf83f50df0.ico">
@@ -47,17 +47,27 @@
 
   <main>
     <form method="get" action="thankyou.html">
-      <label>First Name <input="text" id="fname" name="fname" required></label>
-      <label>Last Name <input="text" id="lname" name="lname" required></label>
+      <label>First Name <input type="text" name="fname" id="fname" required></label>
+      <label>Last Name <input type="text" name="lname" id="lname" required></label>
+      <label>Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"
+          placeholder="Enter text (at least 7 characters, only alpha characters, hyphens, and spaces allowed)"
+          title="Please enter at least 7 characters, only alpha characters, hyphens, and spaces allowed." required>
+      </label>
+      <label>Email <input type="email" name="email" id="email" placeholder="vonBraun@harvestchamber.com"
+          required></label>
+      <label>Mobile number <input type="tel" name="mobile" id="mobile" required></label>
+      <label>Business/Organization Name <input type="text" name="business" id="businesss"></label>
 
-      <label>Title or Position <input="text" id="title" name="title" pattern="[]{7,}" required></label>
-      <label>Email <input="" id="" name=""></label>
-      <label>Mobile # <input="" id="" name=""></label>
-      <label>Business/Organization <input="" id="" name=""></label>
-      <label>Membership Level <input="" id="" name=""></label>
-      <label>Business/Organization Description <input="" id="" name=""></label>
-      <label>Hidden <input="hidden????" id="" name=""></label>
-      <label>You Will Submit To Meeee <input="submit"></label>
+      <label>Membership Level <input type="radio" name="membership" id="NP"> Non Profit Membership</label>
+      <label><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
+      <label><input type="radio" name="membership" id="silver">Silver Membership</label>
+      <label><input type="radio" name="membership" id="gold">Gold Membership</label>
+
+      <label>Business/Organization Description <input type="textarea" name="description" id="description"></label>
+      <!--May need to specify rows="" and cols=""-->
+
+      <label><input type="hidden" name="hideme" id="hideme"></label>
+      <label>You Will Submit To Meeee <input type="submit"></label>
 
 
 
