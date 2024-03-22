@@ -1,3 +1,8 @@
+:root {
+  --color: #034363;
+  --pad: 1rem;
+}
+
 html {
   /*Lexend Deca font not working, see html for further notes, have triple checked code is correct and is copied directly
   from google fonts. Have also tried moving code to Body, made no difference.*/
@@ -11,7 +16,7 @@ header {
   text-align: center;
   background-color: darkblue;
   color: white;
-  padding: 1rem;
+  padding: var(--pad);
 }
 
 
@@ -22,11 +27,11 @@ header {
 }
 
 .name-text {
-  padding: 1rem;
+  padding: var(--pad);
 }
 
 .portrait {
-  padding: 1rem;
+  padding: var(--pad);
   /*width: 100%;
   height: auto;
   object-fit: contain;*/
@@ -40,7 +45,7 @@ h2 {
 nav {
   background-color: black;
   margin: 0 auto;
-  padding: 1rem;
+  padding: var(--pad);
 }
 
 nav ul {
@@ -50,7 +55,7 @@ nav ul {
 nav a {
   color: white;
   display: block;
-  padding: 1rem;
+  padding: var(--pad);
 }
 
 nav a:hover {
@@ -75,16 +80,9 @@ nav a:hover {
   display: none;
 }
 
-
-/*li a {
-  text-decoration: none;
-  list-style: none;
-}*/
-
 li {
   display: block;
   list-style-type: none;
-
   padding-bottom: 10px;
 }
 
@@ -98,7 +96,7 @@ h1 {
 
 label {
   display: block;
-  padding: 1rem;
+  padding: var(--pad);
 }
 
 input[type="text"],
@@ -123,7 +121,7 @@ input[type="email"] {
 #ratingvalue {
   font-size: 1.5rem;
   padding: 16px 16px 8px 4px;
-  color: #034363;
+  color: var(--color);
 }
 
 #ratingvalues {
@@ -133,11 +131,11 @@ input[type="email"] {
 
 #ratingvalues option {
   flex: 1 1 auto;
-  color: #034363;
+  color: var(--color);
 }
 
 #numberline {
-  padding: 1rem;
+  padding: var(--pad);
   padding: 8px 16px 16px 0px;
 }
 
@@ -171,7 +169,5 @@ footer {
   text-align: center;
   background-color: darkblue;
   color: white;
-  padding: 1rem;
+  padding: var(--pad);
 }
-
-/*pseudo class rule eg input:invalid { background-color: red;} input:valid {background-color: green} */
