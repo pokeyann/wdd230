@@ -232,4 +232,11 @@ textarea {
   width: 100%;
 }
 
+.memberlevel {
+  display: block;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-size: .9rem;
+}
+
 input[type="radio"] {}
