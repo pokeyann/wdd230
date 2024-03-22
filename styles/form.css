@@ -92,6 +92,19 @@ li {
   content: "🏠";
 }
 
+label {
+  display: block;
+  margin: 1rem 0;
+  padding: .5rem 2%;
+}
+
+legend {
+  color: blue;
+  padding: 0 .5rem;
+}
+
+
+
 footer {
   grid-column: 1 / 4;
   text-align: center;

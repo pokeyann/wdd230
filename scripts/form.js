@@ -1,7 +1,7 @@
 const pwd = document.querySelector("#password");
 const pwd2 = document.querySelector("#password2");
 
-const message = document.querySelector("#message"); //should this be in the form or outside of it, starting with outside.
+const message = document.querySelector("#message");
 
 pwd2.addEventListener("focusout", checkSame);
 
