@@ -99,3 +99,5 @@ footer {
   color: white;
   padding: 1rem;
 }
+
+/*pseudo class rule eg input:invalid { background-color: red;} input:valid {background-color: green} */

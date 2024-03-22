@@ -33,7 +33,42 @@
   </header>
 
   <main>
+    <h1>Form Build</h1>
 
+    <div id="message"></div> <!-- This is for the password section, may need to be inside form???-->
+
+    <form method="get" action="record.html">
+      <label>First Name* <input type="text" id="fname" name="fname" required></label>
+      <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+
+      <label>Password* <input type="password" id="password" name="password" pattern="[A-Za-Z0-9]{8,}"
+          placeholder="At least 8 characters long" required></label>
+      <label>Retype Password* <input type="password" id="password2" name="password2" required></label>
+
+      <label>Email:* <input type="email" id="email" name="email" placeholder="Your BYU-I email address"
+          title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+
+
+      <label>
+        <div id="ratingvalue">0</div>
+        Page Rating <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1"
+          list="ratingvalues">
+        <datalist id="ratingvalues">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </datalist>
+      </label>
+
+      <input type="submit" value="Save">
+    </form>
   </main>
 
   <footer>
@@ -43,6 +78,7 @@
 
   <script src="scripts/getdates.js"></script>
   <script src="scripts/responsivemenu.js"></script>
+  <script src="scripts/form.js"></script>
 </body>
 
 </html>
