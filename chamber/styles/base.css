@@ -206,3 +206,25 @@ figcaption {
 }
 
 /*---------- Join Page ----------*/
+
+label {
+  display: block;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-size: .9rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="textarea"] {
+  background-color: #a5bcd1;
+  color: black;
+  border: solid 1px #02364F;
+  border-radius: 3px;
+  padding: .50rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+input[type="radio"] {}

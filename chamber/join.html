@@ -23,7 +23,8 @@
 
 </head>
 
-<body>
+<body onload="getHiddenDateNow()">
+  <!--research showed this is where the call to function for the script should go, not the label itself-->
 
   <header>
 
@@ -57,15 +58,13 @@
           required></label>
       <label>Mobile number <input type="tel" name="mobile" id="mobile" required></label>
       <label>Business/Organization Name <input type="text" name="business" id="businesss"></label>
-
-      <label>Membership Level <input type="radio" name="membership" id="NP"> Non Profit Membership</label>
-      <label><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
-      <label><input type="radio" name="membership" id="silver">Silver Membership</label>
-      <label><input type="radio" name="membership" id="gold">Gold Membership</label>
-
       <label>Business/Organization Description <input type="textarea" name="description" id="description"></label>
       <!--May need to specify rows="" and cols=""-->
-
+      <label>Membership Level
+        <label><input type="radio" name="membership" id="np"> Non Profit Membership</label>
+        <label><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
+        <label><input type="radio" name="membership" id="silver">Silver Membership</label>
+        <label><input type="radio" name="membership" id="gold">Gold Membership</label></label>
       <label><input type="hidden" name="hideme" id="hideme"></label>
       <label><input type="submit" value="Join"></label>
 
@@ -83,8 +82,7 @@
 
   <script src="scripts/lastmodified.js">
   </script>
-  <script src="scripts/sidemenu.js"></script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/join.js"></script>
 
 </body>
 
