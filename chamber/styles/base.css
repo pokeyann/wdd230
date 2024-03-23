@@ -316,3 +316,7 @@ p {
   margin: 0;
   padding: .25rem;
 }
+
+.menu button {
+  width: 15%;
+}
