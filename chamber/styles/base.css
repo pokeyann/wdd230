@@ -258,3 +258,25 @@ button {
   margin: 8px 16px 16px 16px;
   box-shadow: 1px 1px 4px #999;
 }
+
+.join-form {
+  grid-area: main;
+}
+
+.join-aside {
+  grid-area: sidebar;
+  min-width: 0;
+}
+
+.join {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "main"
+    "sidebar";
+}
+
+.join-aside h2,
+h3 {
+  text-align: center;
+}

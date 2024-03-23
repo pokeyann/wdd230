@@ -47,80 +47,84 @@
   </header>
 
   <main>
-    <form method="get" action="thankyou.html">
-      <label>First Name* <input type="text" name="fname" id="fname" required></label>
-      <label>Last Name* <input type="text" name="lname" id="lname" required></label>
-      <label>Title or Position* <input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"
-          placeholder="Enter text (at least 7 characters, only alpha characters, hyphens, and spaces allowed)"
-          title="Please enter at least 7 characters, only alpha characters, hyphens, and spaces allowed." required>
-      </label>
-      <label>Email* <input type="email" name="email" id="email" placeholder="vonBraun@harvestchamber.com"
-          required></label>
-      <label>Mobile number* <input type="tel" name="mobile" id="mobile" required></label>
-      <label>Business/Organization Name <input type="text" name="business" id="businesss"></label>
-      <label>Business/Organization Description <textarea name="comment" id="comment" rows="4"
-          cols="61"></textarea></label>
-      <!--May need to specify rows="" and cols=""-->
-      <div class="memberlevel">Membership Level
-        <label><input type="radio" name="membership" id="np"> Non Profit Membership</label>
-        <label><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
-        <label><input type="radio" name="membership" id="silver"> Silver Membership</label>
-        <label><input type="radio" name="membership" id="gold"> Gold Membership</label>
+    <div class="join">
+      <div class="join-form">
+        <form method="get" action="thankyou.html">
+          <label>First Name* <input type="text" name="fname" id="fname" required></label>
+          <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+          <label>Title or Position* <input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"
+              placeholder="Enter text (at least 7 characters, only alpha characters, hyphens, and spaces allowed)"
+              title="Please enter at least 7 characters, only alpha characters, hyphens, and spaces allowed." required>
+          </label>
+          <label>Email* <input type="email" name="email" id="email" placeholder="vonBraun@harvestchamber.com"
+              required></label>
+          <label>Mobile number* <input type="tel" name="mobile" id="mobile" required></label>
+          <label>Business/Organization Name <input type="text" name="business" id="businesss"></label>
+          <label>Business/Organization Description <textarea name="comment" id="comment" rows="4"
+              cols="61"></textarea></label>
+          <!--May need to specify rows="" and cols=""-->
+          <div class="memberlevel">Membership Level
+            <label><input type="radio" name="membership" id="np"> Non Profit Membership</label>
+            <label><input type="radio" name="membership" id="bronze"> Bronze Membership</label>
+            <label><input type="radio" name="membership" id="silver"> Silver Membership</label>
+            <label><input type="radio" name="membership" id="gold"> Gold Membership</label>
+          </div>
+          <label><input type="hidden" name="hideme" id="hideme"></label>
+          <!--<label><input button type="submit" value="Become a Member"></label>-->
+          <label><button type="submit">Become a Member</button></label>
+        </form>
       </div>
-      <label><input type="hidden" name="hideme" id="hideme"></label>
-      <!--<label><input button type="submit" value="Become a Member"></label>-->
-      <label><button type="submit">Become a Member</button></label>
-    </form>
 
-    <aside>
-      <h2>Harvest Rocket City Chamber of Commerce Membership Plans</h2>
-      <p>Our membership plans are designed to cater to the diverse needs and interests of businesses within our amazing
-        community.</p>
+      <aside class="join-aside">
+        <h2>Harvest Rocket City Chamber of Commerce Membership Plans</h2>
+        <p>Our membership plans are designed to cater to the diverse needs and interests of businesses within our
+          amazing
+          community.</p>
 
-      <section>
-        <h3>Non-Profit Membership - Free</h3>
-        <ul>
-          <li>Listing in the Chamber's online directory</li>
-          <li>Access to Chamber-sponsored events and networking opprotunities</li>
-          <li>Subscription to the Chamber's newsletter</li>
-          <li>Voting rights in Chamber elections</li>
-        </ul>
-      </section>
+        <section>
+          <h3>Non-Profit Membership - Free</h3>
+          <ul>
+            <li>Listing in the Chamber's online directory</li>
+            <li>Access to Chamber-sponsored events and networking opprotunities</li>
+            <li>Subscription to the Chamber's newsletter</li>
+            <li>Voting rights in Chamber elections</li>
+          </ul>
+        </section>
 
-      <section>
-        <h3>Bronze Membership - $250/year</h3>
-        <ul>
-          <li>All benefits of the Non-Profit Membership, plus:</li>
-          <li>Priority listing in the Chamber's online directory</li>
-          <li>Exclusive access to Chamber workshops and educational seminars</li>
-          <li>One free advertisement placement in the Chamber's newsletter annually</li>
-          <li>Discounted rates for Chamber-sponsored advertising opportunities</li>
-        </ul>
-      </section>
+        <section>
+          <h3>Bronze Membership - $250/year</h3>
+          <ul>
+            <li>All benefits of the Non-Profit Membership, plus:</li>
+            <li>Priority listing in the Chamber's online directory</li>
+            <li>Exclusive access to Chamber workshops and educational seminars</li>
+            <li>One free advertisement placement in the Chamber's newsletter annually</li>
+            <li>Discounted rates for Chamber-sponsored advertising opportunities</li>
+          </ul>
+        </section>
 
-      <section>
-        <h3>Silver Membership - $500/year</h3>
-        <ul>
-          <li>All benefits of the Bronze Membership, plus:</li>
-          <li>Enhanced listing with logo placement in the Chamber's online directory</li>
-          <li>Invitations to VIP networking events with community leaders and business owners</li>
-          <li>Two free advertisement placements in the Chamber's newsletter annually</li>
-          <li>Recognition as a Silver Member in Chamber publications and events</li>
-        </ul>
-      </section>
+        <section>
+          <h3>Silver Membership - $500/year</h3>
+          <ul>
+            <li>All benefits of the Bronze Membership, plus:</li>
+            <li>Enhanced listing with logo placement in the Chamber's online directory</li>
+            <li>Invitations to VIP networking events with community leaders and business owners</li>
+            <li>Two free advertisement placements in the Chamber's newsletter annually</li>
+            <li>Recognition as a Silver Member in Chamber publications and events</li>
+          </ul>
+        </section>
 
-      <section>
-        <h3>Gold Membership - $1000/year</h3>
-        <ul>
-          <li>All benefits of the Silver Membership, plus:</li>
-          <li>Premier placement with logo and description in the Chamber's online directory</li>
-          <li>Exclusive sponsorship opportunities for Chamber events and programs</li>
-          <li>Three free advertisement placements in the Chamber's newsletter annually</li>
-          <li>Special recognition as a Gold Member at Chamber events and in promotional materials</li>
-        </ul>
-      </section>
-    </aside>
-
+        <section>
+          <h3>Gold Membership - $1000/year</h3>
+          <ul>
+            <li>All benefits of the Silver Membership, plus:</li>
+            <li>Premier placement with logo and description in the Chamber's online directory</li>
+            <li>Exclusive sponsorship opportunities for Chamber events and programs</li>
+            <li>Three free advertisement placements in the Chamber's newsletter annually</li>
+            <li>Special recognition as a Gold Member at Chamber events and in promotional materials</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
   </main>
 
   <footer>
