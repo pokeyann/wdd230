@@ -28,6 +28,14 @@ const displayMembers = (members) => {
     phoneNumber.textContent = member.phoneNumber;
     websiteURL.href = member.websiteURL;
     imageFileName.src = member.imageFileName;
+
+    imageFileName.setAttribute("loading", "lazy");
+    imageFileName.setAttribute("width", "200");
+    imageFileName.setAttribute("height", "200");
+    /*
+    imageFileName.setAttribute("alt", `Potrait of ${prophet.name} ${prophet.lastname}`);
+  */
+
     memberLevel.textContent = member.memberLevel;
     otherInfo.textContent = member.otherInfo;
 
