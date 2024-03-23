@@ -4,7 +4,7 @@
       "name": "Green Thumb Gardening Services",
       "address": "123 Blossom Lane, Harvest, AL 35749",
       "phoneNumber": "(555) 555-1234",
-      "websiteURL": "greenthumbgardenservices.org",
+      "websiteURL": "chamber/images/greenthumb350x387.webp",
       "imageFileName": "greenthumb.jpg",
       "memberLevel": "Non-Profit",
       "otherInfo": "Offers eco-friendly landscaping and gardening services for the elderly and those in need."
@@ -14,7 +14,7 @@
       "address": "456 Sunshine Street, Harvest, AL 35749",
       "phoneNumber": "(555) 555-5678",
       "websiteURL": "sunnydaycafe.com",
-      "imageFileName": "sunnydaycafe.jpg",
+      "imageFileName": "chamber/images/sunnyday350x298.webp",
       "memberLevel": "Silver",
       "otherInfo": "A cozy beachfront cafe serving fresh, locally sourced breakfast and brunch options."
     },
@@ -23,7 +23,7 @@
       "address": "789 Innovation Avenue, Harvest, AL 35749",
       "phoneNumber": "(555) 555-9012",
       "websiteURL": "techgeniussolutions.net",
-      "imageFileName": "techgenius.jpg",
+      "imageFileName": "chamber/images/techgenius350x299.webp",
       "memberLevel": "Gold",
       "otherInfo": "Provides IT consulting, software development, and cybersecurity solutions."
     },
@@ -32,7 +32,7 @@
       "address": "101 Woof Woof Lane, Harvest, AL 35749",
       "phoneNumber": "(555) 555-3456",
       "websiteURL": "petparadiseresort.com",
-      "imageFileName": "petparadise.jpg",
+      "imageFileName": "chamber/images/petparadise350x314.webp",
       "memberLevel": "Bronze",
       "otherInfo": "Offers luxury boarding, grooming, and daycare services for pets."
     },
@@ -41,7 +41,7 @@
       "address": "789 Harvest Lane, Harvest, AL 35749",
       "phoneNumber": "(555) 555-6789",
       "websiteURL": "goldenharvestfarmers.com",
-      "imageFileName": "goldenharvest.jpg",
+      "imageFileName": "chamber/images/farm350x355.webp",
       "memberLevel": "Specializes in organic produce farming, offering a wide variety of fruits and vegetables grown with sustainable practices. Visitors can also enjoy farm tours and pick-your-own events during the harvest season."
     },
     {
@@ -49,7 +49,7 @@
       "address": "345 Artisan Avenue, Harvest, AL 35749",
       "phoneNumber": "(555) 555-2345",
       "websiteURL": "craftycreationsgallery.com",
-      "imageFileName": "craftycreations.jpg",
+      "imageFileName": "chamber/images/art350x352.webp",
       "memberLevel": "Non-profit",
       "otherInfo": "Showcases and sells local artists' paintings, sculptures, and crafts."
     },
@@ -58,7 +58,7 @@
       "address": "567 Wellness Way, Harvest, AL 35749",
       "phoneNumber": "(555) 555-7890",
       "websiteURL": "healthhavenpharmacy.org",
-      "imageFileName": "healthhaven.jpg",
+      "imageFileName": "chamber/images/pharmacy350x350.webp",
       "memberLevel": "Gold",
       "otherInfo": "Other Information: Offers personalized pharmaceutical services, wellness products, and health consultations."
     }
