@@ -11,8 +11,11 @@ async function getProphetData() {
 getProphetData();
 */
 
+
 const url = "https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json";
 const cards = document.querySelector("#cards");
+
+console.log("testing to see if I can get this to work here, did work in test of responsivemenu.js");
 
 async function getProphetData(url) {
   const response = await fetch(url);
