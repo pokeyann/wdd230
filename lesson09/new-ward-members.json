@@ -1,0 +1,35 @@
+{
+  "newWardInfo": {
+    "familyName": "Bazinga",
+    "dateMovedIn": "2008-03-01",
+    "numberOfRecords": 5,
+    "bishopVisit": true,
+    "familyMembers": [
+      {
+        "name": "Danger",
+        "gender": "M",
+        "birthdate": "2006-03-27"
+      },
+      {
+        "name": "Princess",
+        "gender": "F",
+        "birthdate": "2006-01-14"
+      },
+      {
+        "name": "Wilding",
+        "gender": "F",
+        "birthdate": "2007-01-07"
+      },
+      {
+        "name": "Jailbirdie",
+        "gender": "F",
+        "birthdate": "2007-12-16"
+      },
+      {
+        "name": "Knackered",
+        "gender": "F",
+        "birthdate": "1701-04-09"
+      }
+    ]
+  }
+}
