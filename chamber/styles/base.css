@@ -218,6 +218,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="textarea"] {
+  display: block;
   background-color: #a5bcd1;
   color: black;
   border: solid 1px #02364F;
@@ -261,6 +262,7 @@ button {
 
 .join-form {
   grid-area: main;
+
 }
 
 .join-aside {
@@ -274,9 +276,11 @@ button {
   grid-template-areas:
     "main"
     "sidebar";
+  padding: 1rem;
 }
 
 .join-aside h2,
-h3 {
+h3,
+p {
   text-align: center;
 }
