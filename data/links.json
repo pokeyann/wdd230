@@ -1,0 +1,129 @@
+{
+  "lessons": [
+    {
+      "lessons": "02",
+      "links": [
+        {
+          "url": "lesson02/design-principles.html",
+          "title": "Web Design Principles"
+        },
+        {
+          "url": "lesson02/media-query.html",
+          "title": "Media Query"
+        },
+        {
+          "url": "lesson02/design.html",
+          "title": "Design Principles"
+        }
+      ]
+    },
+    {
+      "lessons": "03",
+      "links": [
+        {
+          "url": "https://codepen.io/RAnnM/pen/jOJjOzZ",
+          "title": "CSS Pseudo Elements CodePen"
+        },
+        {
+          "url": "https://codepen.io/RAnnM/pen/LYaQrPa",
+          "title": "Hamburger Reponsive Menu"
+        },
+        {
+          "url": "lesson03/chamber-site-plan.html",
+          "title": "Chamber Site Plan"
+        }
+      ]
+    },
+    {
+      "lessons": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/RAnnM/pen/jOJjOzZ",
+          "title": "CSS Pseudo Classes CodePen"
+        },
+        {
+          "url": "chamber/index.html",
+          "title": "Chamber Site"
+        }
+      ]
+    },
+    {
+      "lessons": "05",
+      "links": [
+        {
+          "url": "lesson05/bom.html",
+          "title": "BOM Favorites"
+        }
+      ]
+    },
+    {
+      "lessons": "06",
+      "links": [
+        {
+          "url": "lesson06/images/landscape600x399px.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "lesson06/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "lessons": "07",
+      "links": [
+        {
+          "url": "lesson07/lazyload.html",
+          "title": "Lazy Loading"
+        },
+        {
+          "url": "lesson07/bom.html",
+          "title": "Local Storage"
+        }
+      ]
+    },
+    {
+      "lessons": "08",
+      "links": [
+        {
+          "url": "lesson08/tablebuild.html",
+          "title": "Table Build"
+        },
+        {
+          "url": "http://localhost:55384/form-start/index.html",
+          "title": "Form Start"
+        },
+        {
+          "url": "http://localhost:55384/form.html",
+          "title": "Form Build"
+        }
+      ]
+    },
+    {
+      "lessons": "09",
+      "links": [
+        {
+          "url": "lesson09/new-ward-members.json",
+          "title": "JSON"
+        },
+        {
+          "url": "lesson09/prophets.html",
+          "title": "Prophets Cards"
+        },
+        {
+          "url": "data/links.json",
+          "title": "JSON Menu"
+        }
+      ]
+    },
+    {
+      "lessons": "10",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
