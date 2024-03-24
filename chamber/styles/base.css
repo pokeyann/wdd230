@@ -317,6 +317,10 @@ p {
   padding: .25rem;
 }
 
+#cards a {
+  margin: .5rem;
+}
+
 .menu button {
   width: 15%;
 }

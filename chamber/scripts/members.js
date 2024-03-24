@@ -26,7 +26,9 @@ const displayMembers = (members) => {
     name.textContent = member.name;
     address.textContent = member.address;
     phoneNumber.textContent = member.phoneNumber;
-    websiteURL.a = member.websiteURL;
+    websiteURL.href = member.websiteURL;
+    websiteURL.textContent = member.websiteURL;
+
 
     imageFileName.src = member.imageFileName;
     imageFileName.setAttribute("loading", "lazy");
