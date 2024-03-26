@@ -1,0 +1,36 @@
+body {
+  font-family: 'Lexend Deca',
+    sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+header,
+footer {
+  background-color: #02364F;
+  color: #F5F5F5;
+  text-align: center;
+  padding: .5rem;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(213, 213, 223);
+  border: 2px solid rgb(178, 178, 196);
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(178, 178, 196);
+}
