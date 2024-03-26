@@ -31,7 +31,7 @@ const displayLinks = (lessons) => {
       let listURL = document.createElement("li");
       let title = document.createElement("a");
 
-      title.setAttribute = ("href", `${link.url}`);
+      title.setAttribute = ("href", link.url);
 
 
       title.textContent = link.title;
@@ -43,8 +43,6 @@ const displayLinks = (lessons) => {
     weeks.appendChild(linksList);
 
   });
-
-
 }
 
 /*links.textContent = `${week.links}`;
