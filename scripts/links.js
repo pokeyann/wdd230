@@ -18,20 +18,66 @@ async function getLinksData() {
 getLinksData();
 
 const displayLinks = (lessons) => {
-  lessons.forEach((week) => {
-    let lesson = document.createElement("section");
-    let url = document.createElement("li");
-    let title = document.createElement("a");
+  lessons.forEach((lesson) => {
+    let weekHeading = document.createElement("h3");
+    let linksList = document.createElement("ul");
 
-    lesson.appendChild(url);
-    lesson.appendChild(title);
+    weekHeading.textContent = `Week ${lesson.week}`
 
-    weeks.appendChild(lesson);
+    weeks.appendChild(weekHeading);
+
+
+    lesson.links.forEach((link) => {
+      let listURL = document.createElement("li");
+      let title = document.createElement("a");
+
+      title.setAttribute = ("href", link.url);
+
+
+      title.textContent = link.title;
+
+      listURL.appendChild(title);
+      linksList.appendChild(listURL);
+    });
+
+    weeks.appendChild(linksList);
 
   });
 
 
 }
+
+/*links.textContent = `${week.links}`;
+    url.textContent = `${week.url}`;
+    title.textContent = `${week.title}`;
+
+    lesson.appendChild(links);
+    lesson.appendChild(url);
+    lesson.appendChild(title);
+
+    weeks.appendChild(lesson); */
+
+/* const displayProphets = (prophets) => {
+  prophets.forEach((prophet) => {
+    let card = document.createElement("section");
+    let fullName = document.createElement("h2");
+    //add paragraph for other info on card
+    let portrait = document.createElement("img");
+
+    fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+
+    portrait.setAttribute("src", prophet.imageurl);
+    portrait.setAttribute("alt", `Potrait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute("loading", "lazy");
+    portrait.setAttribute("width", "300");
+    portrait.setAttribute("height", "400");
+
+    card.appendChild(fullName);
+    card.appendChild(portrait);
+
+    cards.appendChild(card);
+  });
+} */
 /*
 json: lessons lessons url title
 html: 
