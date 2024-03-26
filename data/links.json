@@ -1,7 +1,16 @@
 {
   "lessons": [
     {
-      "lessons": "02",
+      "week": "01",
+      "links": [
+        {
+          "url": "empty",
+          "title": "emtpy"
+        }
+      ]
+    },
+    {
+      "week": "02",
       "links": [
         {
           "url": "lesson02/design-principles.html",
@@ -18,7 +27,7 @@
       ]
     },
     {
-      "lessons": "03",
+      "week": "03",
       "links": [
         {
           "url": "https://codepen.io/RAnnM/pen/jOJjOzZ",
@@ -35,7 +44,7 @@
       ]
     },
     {
-      "lessons": "04",
+      "week": "04",
       "links": [
         {
           "url": "https://codepen.io/RAnnM/pen/jOJjOzZ",
@@ -48,7 +57,7 @@
       ]
     },
     {
-      "lessons": "05",
+      "week": "05",
       "links": [
         {
           "url": "lesson05/bom.html",
@@ -57,7 +66,7 @@
       ]
     },
     {
-      "lessons": "06",
+      "week": "06",
       "links": [
         {
           "url": "lesson06/images/landscape600x399px.webp",
@@ -70,7 +79,7 @@
       ]
     },
     {
-      "lessons": "07",
+      "week": "07",
       "links": [
         {
           "url": "lesson07/lazyload.html",
@@ -83,7 +92,7 @@
       ]
     },
     {
-      "lessons": "08",
+      "week": "08",
       "links": [
         {
           "url": "lesson08/tablebuild.html",
@@ -100,7 +109,7 @@
       ]
     },
     {
-      "lessons": "09",
+      "week": "09",
       "links": [
         {
           "url": "lesson09/new-ward-members.json",
@@ -117,7 +126,7 @@
       ]
     },
     {
-      "lessons": "10",
+      "week": "10",
       "links": [
         {
           "url": "",
