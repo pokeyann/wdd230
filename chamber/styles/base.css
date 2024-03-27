@@ -333,6 +333,14 @@ p {
   box-shadow: 1px 1px 4px #999;
 }
 
-#grid {}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  align-items: center;
+}
 
-#list {}
+.list {
+  display: flex;
+  flex-direction: column;
+}
