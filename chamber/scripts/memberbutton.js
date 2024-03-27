@@ -1,26 +1,16 @@
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
-const display = document.querySelector(".grid");
+const display = document.querySelector(".display");
 
 
-gridButton.addEventListener("click", () => {
-
+gridButton.addEventListener("click", function () {
   display.classList.add("grid");
   display.classList.remove("list");
+
 });
 
-listButton.addEventListener("click", showList);
-
-function showList() {
+listButton.addEventListener("click", function () {
   display.classList.add("list");
   display.classList.remove("grid");
-}
+});
 
-
-/*const mainnav = document.querySelector(".navigation")
-const hambutton = document.querySelector("#menu")
-
-hambutton.addEventListener('click', () => {
-  mainnav.classList.toggle('show');
-  hambutton.classList.toggle('show');
-});*/

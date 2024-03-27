@@ -287,10 +287,10 @@ p {
 
 /*========== Directory Page ----------*/
 
-#cards {
+/*#cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
+}*/
 
 #cards section {
   margin: .5rem;
@@ -321,7 +321,13 @@ p {
   margin: .5rem;
 }
 
-.menu button {
+.menu {
+  display: flex;
+  gap: 10px;
+}
+
+#grid,
+#list {
   border: none;
   background-image: linear-gradient(#036495, #034363);
   color: white;
@@ -333,9 +339,14 @@ p {
   box-shadow: 1px 1px 4px #999;
 }
 
+#grid.active,
+#list.active {
+  background-color: #FB8500;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 5px;
   align-items: center;
 }
