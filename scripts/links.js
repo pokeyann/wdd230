@@ -27,10 +27,10 @@ const displayLinks = (lessons) => {
       let listURL = document.createElement("li");
       let title = document.createElement("a");
 
-      title.href = link.title;
+      title.href = link.url;
       title.textContent = link.title;
 
-      linksList.appendChild(title);
+      listURL.appendChild(title);
       linksList.appendChild(listURL);
     });
 
