@@ -17,11 +17,11 @@
           "title": "Web Design Principles"
         },
         {
-          "url": "lesson02/media-query.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson02/media-query.html",
           "title": "Media Query"
         },
         {
-          "url": "lesson02/design.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson02/design.html",
           "title": "Design Principles"
         }
       ]
@@ -38,7 +38,7 @@
           "title": "Hamburger Reponsive Menu"
         },
         {
-          "url": "lesson03/chamber-site-plan.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson03/chamber-site-plan.html",
           "title": "Chamber Site Plan"
         }
       ]
@@ -51,7 +51,7 @@
           "title": "CSS Pseudo Classes CodePen"
         },
         {
-          "url": "chamber/index.html",
+          "url": "https://pokeyann.github.io/wdd230/chamber/index.html",
           "title": "Chamber Site"
         }
       ]
@@ -60,7 +60,7 @@
       "week": "05",
       "links": [
         {
-          "url": "lesson05/bom.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson05/bom.html",
           "title": "BOM Favorites"
         }
       ]
@@ -69,11 +69,11 @@
       "week": "06",
       "links": [
         {
-          "url": "lesson06/images/landscape600x399px.webp",
+          "url": "https://pokeyann.github.io/wdd230/lesson06/images/landscape600x399px.webp",
           "title": "WebP"
         },
         {
-          "url": "lesson06/responsive-images.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson06/responsive-images.html",
           "title": "Responsive Images"
         }
       ]
@@ -82,11 +82,11 @@
       "week": "07",
       "links": [
         {
-          "url": "lesson07/lazyload.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson07/lazyload.html",
           "title": "Lazy Loading"
         },
         {
-          "url": "lesson07/bom.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson07/bom.html",
           "title": "Local Storage"
         }
       ]
@@ -95,7 +95,7 @@
       "week": "08",
       "links": [
         {
-          "url": "lesson08/tablebuild.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson08/tablebuild.html",
           "title": "Table Build"
         },
         {
@@ -103,7 +103,7 @@
           "title": "Form Start"
         },
         {
-          "url": "http://localhost:55384/form.html",
+          "url": "https://pokeyann.github.io/wdd230/form.html",
           "title": "Form Build"
         }
       ]
@@ -112,15 +112,15 @@
       "week": "09",
       "links": [
         {
-          "url": "lesson09/new-ward-members.json",
+          "url": "https://pokeyann.github.io/wdd230/lesson09/new-ward-members.json",
           "title": "JSON"
         },
         {
-          "url": "lesson09/prophets.html",
+          "url": "https://pokeyann.github.io/wdd230/lesson09/prophets.html",
           "title": "Prophets Cards"
         },
         {
-          "url": "data/links.json",
+          "url": "https://pokeyann.github.io/wdd230/data/links.json",
           "title": "JSON Menu"
         }
       ]

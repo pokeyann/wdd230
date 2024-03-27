@@ -31,9 +31,7 @@ const displayLinks = (lessons) => {
       let listURL = document.createElement("li");
       let title = document.createElement("a");
 
-      title.setAttribute = ("href", link.url);
-
-
+      title.href = link.title;
       title.textContent = link.title;
 
       listURL.appendChild(title);
